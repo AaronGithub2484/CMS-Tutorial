@@ -1,0 +1,358 @@
+2019-01-21 23:00:59 Notice: Deprecated (16384): Security::salt() is deprecated. Use Security::getSalt()/setSalt() instead. - /vagrant/config/bootstrap.php, line: 141
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Utility\Security::salt() - CORE/src/Utility/Security.php, line 383
+require - ROOT/config/bootstrap.php, line 141
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2019-01-21 23:00:59 Notice: Deprecated (16384): Use Cake\Http\ServerRequest instead of Cake\Network\Request. - /vagrant/vendor/composer/ClassLoader.php, line: 444
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+include - CORE/src/Network/Request.php, line 4
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+require - ROOT/config/bootstrap.php, line 153
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2019-01-21 23:00:59 Notice: Deprecated (16384): Plugin::load() is deprecated. Use Application::addPlugin() instead. This method will be removed in 4.0.0. - /vagrant/config/bootstrap.php, line: 183
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 118
+require - ROOT/config/bootstrap.php, line 183
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2019-01-21 23:00:59 Notice: Deprecated (16384): Plugin::load() is deprecated. Use Application::addPlugin() instead. This method will be removed in 4.0.0. - /vagrant/config/bootstrap.php, line: 188
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 118
+require - ROOT/config/bootstrap.php, line 188
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2019-01-21 23:00:59 Notice: Deprecated (16384): Plugin::bootstrap() is deprecated. This method will be removed in 4.0.0. - /vagrant/vendor/cakephp/cakephp/src/Core/Plugin.php, line: 173
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Core\Plugin::bootstrap() - CORE/src/Core/Plugin.php, line 286
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 173
+require - ROOT/config/bootstrap.php, line 188
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2019-01-21 23:00:59 Notice: Deprecated (16384): ServerRequest::createFromGlobals() is deprecated. Use `Cake\Http\ServerRequestFactory` instead. - /vagrant/webroot/index.php, line: 35
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Http\ServerRequest::createFromGlobals() - CORE/src/Http/ServerRequest.php, line 259
+[main] - ROOT/webroot/index.php, line 35
+
+
+
+2019-01-21 23:00:59 Notice: Deprecated (16384): Use Cake\Http\Response instead of Cake\Network\Response. - /vagrant/vendor/composer/ClassLoader.php, line: 444
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+include - CORE/src/Network/Response.php, line 4
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-21 23:00:59 Notice: Deprecated (16384): Dispatcher is deprecated. You should update your application to use the Http\Server implementation instead. - /vagrant/webroot/index.php, line: 36
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 64
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-21 23:00:59 Notice: Deprecated (16384): ActionDispatcher::addFilter() is deprecated. This is only available for backwards compatibility with DispatchFilters - /vagrant/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php, line: 61
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Http\ActionDispatcher::addFilter() - CORE/src/Http/ActionDispatcher.php, line 155
+Cake\Http\ActionDispatcher::__construct() - CORE/src/Http/ActionDispatcher.php, line 61
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 66
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-21 23:00:59 Notice: Deprecated (16384): ActionDispatcher::addFilter() is deprecated. This is only available for backwards compatibility with DispatchFilters - /vagrant/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php, line: 61
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Http\ActionDispatcher::addFilter() - CORE/src/Http/ActionDispatcher.php, line 155
+Cake\Http\ActionDispatcher::__construct() - CORE/src/Http/ActionDispatcher.php, line 61
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 66
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-21 23:00:59 Notice: Deprecated (16384): ActionDispatcher::addFilter() is deprecated. This is only available for backwards compatibility with DispatchFilters - /vagrant/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php, line: 61
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Http\ActionDispatcher::addFilter() - CORE/src/Http/ActionDispatcher.php, line 155
+Cake\Http\ActionDispatcher::__construct() - CORE/src/Http/ActionDispatcher.php, line 61
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 66
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-21 23:00:59 Notice: Deprecated (16384): You no longer need to call `Plugin::routes()` after upgrading to use Http\Server. See https://book.cakephp.org/3.0/en/development/application.html#adding-the-new-http-stack-to-an-existing-application for upgrade information. - /vagrant/config/routes.php, line: 81
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Core\Plugin::routes() - CORE/src/Core/Plugin.php, line 319
+include - ROOT/config/routes.php, line 81
+Cake\Routing\Router::_loadRoutes() - CORE/src/Routing/Router.php, line 1196
+Cake\Routing\Router::parseRequest() - CORE/src/Routing/Router.php, line 382
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE/src/Routing/Filter/RoutingFilter.php, line 58
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 146
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 353
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 330
+Cake\Http\ActionDispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 114
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 67
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-21 23:00:59 Notice: Deprecated (16384): You no longer need to call `Plugin::routes()` after upgrading to use Http\Server. See https://book.cakephp.org/3.0/en/development/application.html#adding-the-new-http-stack-to-an-existing-application for upgrade information. - /vagrant/vendor/cakephp/cakephp/src/Core/Plugin.php, line: 323
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Core\Plugin::routes() - CORE/src/Core/Plugin.php, line 319
+Cake\Core\Plugin::routes() - CORE/src/Core/Plugin.php, line 323
+include - ROOT/config/routes.php, line 81
+Cake\Routing\Router::_loadRoutes() - CORE/src/Routing/Router.php, line 1196
+Cake\Routing\Router::parseRequest() - CORE/src/Routing/Router.php, line 382
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE/src/Routing/Filter/RoutingFilter.php, line 58
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 146
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 353
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 330
+Cake\Http\ActionDispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 114
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 67
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-21 23:00:59 Notice: Deprecated (16384): You no longer need to call `Plugin::routes()` after upgrading to use Http\Server. See https://book.cakephp.org/3.0/en/development/application.html#adding-the-new-http-stack-to-an-existing-application for upgrade information. - /vagrant/vendor/cakephp/cakephp/src/Core/Plugin.php, line: 323
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Core\Plugin::routes() - CORE/src/Core/Plugin.php, line 319
+Cake\Core\Plugin::routes() - CORE/src/Core/Plugin.php, line 323
+include - ROOT/config/routes.php, line 81
+Cake\Routing\Router::_loadRoutes() - CORE/src/Routing/Router.php, line 1196
+Cake\Routing\Router::parseRequest() - CORE/src/Routing/Router.php, line 382
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE/src/Routing/Filter/RoutingFilter.php, line 58
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 146
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 353
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 330
+Cake\Http\ActionDispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 114
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 67
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-21 23:00:59 Notice: Deprecated (16384): ServerRequest::addParams() is deprecated. Use `withParam()` or `withAttribute("params", $params)` instead. - /vagrant/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php, line: 59
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Http\ServerRequest::addParams() - CORE/src/Http/ServerRequest.php, line 1038
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE/src/Routing/Filter/RoutingFilter.php, line 59
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 146
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 353
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 330
+Cake\Http\ActionDispatcher::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 114
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 67
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-21 23:00:59 Notice: Deprecated (16384): Response::type() is deprecated. Use setTypeMap(), getType() or withType() instead. - /vagrant/src/Controller/AppController.php, line: 57
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Http\Response::type() - CORE/src/Http/Response.php, line 1114
+App\Controller\AppController::beforeRender() - APP/Controller/AppController.php, line 57
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 353
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 330
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 114
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 778
+App\Controller\PagesController::display() - APP/Controller/PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 610
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 67
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-21 23:00:59 Notice: Deprecated (16384): Cake\Cache\Cache::config() is deprecated. Use setConfig()/getConfig() instead. - /vagrant/src/Template/Pages/home.ctp, line: 105
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Cache\Cache::config() - CORE/src/Core/StaticConfigTrait.php, line 168
+include - APP/Template/Pages/home.ctp, line 105
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1413
+Cake\View\View::_render() - CORE/src/View/View.php, line 1374
+Cake\View\View::render() - CORE/src/View/View.php, line 880
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 791
+App\Controller\PagesController::display() - APP/Controller/PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 610
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 67
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-21 23:01:00 Notice: Deprecated (16384): Response::send() will be removed in 4.0.0 - /vagrant/vendor/cakephp/cakephp/src/Routing/Dispatcher.php, line: 72
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Http\Response::send() - CORE/src/Http/Response.php, line 489
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 72
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-21 23:01:00 Notice: Deprecated (16384): Will be removed in 4.0.0 - /vagrant/vendor/cakephp/cakephp/src/Http/Response.php, line: 495
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Http\Response::_setContent() - CORE/src/Http/Response.php, line 609
+Cake\Http\Response::send() - CORE/src/Http/Response.php, line 495
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 72
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-21 23:01:00 Notice: Deprecated (16384): Will be removed in 4.0.0 - /vagrant/vendor/cakephp/cakephp/src/Http/Response.php, line: 496
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Http\Response::sendHeaders() - CORE/src/Http/Response.php, line 520
+Cake\Http\Response::send() - CORE/src/Http/Response.php, line 496
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 72
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-21 23:01:00 Notice: Deprecated (16384): Response::body() is deprecated. Mutable response methods are deprecated. Use `withBody()` and `getBody()` instead. - /vagrant/vendor/cakephp/cakephp/src/Http/Response.php, line: 503
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Http\Response::body() - CORE/src/Http/Response.php, line 854
+Cake\Http\Response::send() - CORE/src/Http/Response.php, line 503
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 72
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-21 23:01:00 Notice: Deprecated (16384): Will be removed in 4.0.0 - /vagrant/vendor/cakephp/cakephp/src/Http/Response.php, line: 503
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/vagrant/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Request URL: /
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Http\Response::_sendContent() - CORE/src/Http/Response.php, line 652
+Cake\Http\Response::send() - CORE/src/Http/Response.php, line 503
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 72
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-23 22:07:25 Notice: Notice (8): Undefined variable: slug in [/vagrant/src/Controller/ArticlesController.php, line 57]
+Request URL: /articles/edit
+Referer URL: http://dev.cpierce.org/articles/
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+App\Controller\ArticlesController::edit() - APP/Controller/ArticlesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 610
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 67
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2019-01-23 22:41:13 Notice: Notice (8): Undefined variable: slug in [/vagrant/src/Controller/ArticlesController.php, line 78]
+Request URL: /articles/delete
+Referer URL: http://dev.cpierce.org/articles/
+Client IP: 192.168.33.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+App\Controller\ArticlesController::delete() - APP/Controller/ArticlesController.php, line 78
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 610
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 120
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 67
+[main] - ROOT/webroot/index.php, line 36
+
+
+

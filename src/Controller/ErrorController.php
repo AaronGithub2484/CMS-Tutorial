@@ -39,6 +39,7 @@ class ErrorController extends AppController
     public function beforeFilter(Event $event)
     {
     }
+    
     /**
      * beforeRender callback.
      *
@@ -50,6 +51,7 @@ class ErrorController extends AppController
         parent::beforeRender($event);
         $this->viewBuilder()->setTemplatePath('Error');
     }
+
     /**
      * afterFilter callback.
      *
